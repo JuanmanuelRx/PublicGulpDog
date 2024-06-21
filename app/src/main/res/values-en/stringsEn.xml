@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GulpDog</string>
+    <string name="curso">Course</string>
+    <string name="bM">Mathematics</string>
+    <string name="bL">Language</string>
+    <string name="bCN">Natural Sciences</string>
+    <string name="bCS">Social Sciences</string>
+    <string name="bEA">Arts Education</string>
+    <string name="bEF">Physical Education</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">content of</string>
+    <string name="descrip_Mate">Mathematics progress information</string>
+</resources>

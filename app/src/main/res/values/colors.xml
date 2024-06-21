@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Pantalla en brillo-->
+    <color name="blanco">#FFFFFFFF</color>
+    <color name="amarillo">#FFF200</color>
+    <color name="oro">#FFCA18</color>
+    <!--Pantalla en oscuro-->
+    <color name="negro">#FF000000</color>
+    <color name="naranja_oscuro">#491802</color>
+    <color name="naranja">#d44f00</color>
+    <!--Pantalla en concentrado-->
+    <color name="verde_oscuro">#0ED145</color>
+    <color name="celeste">#00aae4</color>
+    <color name="azul">#1D5DEC</color>
+    <!--Pantalla en estimulante-->
+    <color name="rojo_oscuro">#88001B</color>
+    <color name="indigo">#2f41a7</color>
+    <color name="violeta">#8000FF</color>
+</resources>

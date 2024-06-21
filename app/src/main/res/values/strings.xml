@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GulpDog</string>
+    <string name="curso">Curso</string>
+    <string name="bM">Matematica</string>
+    <string name="bL">Lenguaje</string>
+    <string name="bCN">Ciencias Naturales</string>
+    <string name="bCS">Ciencias Sociales</string>
+    <string name="bEA">Educación Artística</string>
+    <string name="bEF">Educación Física</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Contenidos de </string>
+    <string name="descrip_Mate">Información de progreso en Matematica</string>
+</resources>

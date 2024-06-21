@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard_main">
+
+  <ImageButton
+      android:id="@+id/info_mate"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:background="@color/blanco"
+      android:src="@drawable/baseline_info_50"
+      android:contentDescription="@string/descrip_Mate"
+      app:layout_constraintBottom_toBottomOf="@+id/bmate"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toEndOf="@+id/bmate"
+      app:layout_constraintTop_toTopOf="@+id/bmate"
+      app:layout_constraintVertical_bias="0.56" />
+
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/top_dashboard"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="?attr/colorPrimary"
+      android:minHeight="?attr/actionBarSize"
+      android:theme="?attr/actionBarTheme"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:menu="@menu/main_menu"
+      app:title="GulpDog" />
+
+  <Button
+      android:id="@+id/bmate"
+      android:layout_width="300dp"
+      android:layout_height="100dp"
+      android:layout_marginTop="15dp"
+      android:background="@mipmap/frame_mat"
+      android:gravity="bottom|center"
+      android:onClick="irpanelmate"
+      android:padding="10dp"
+      android:text="@string/bM"
+      android:textColor="@color/blanco"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.144"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/top_dashboard" />
+
+  <Button
+      android:id="@+id/blen"
+      android:layout_width="300dp"
+      android:layout_height="100dp"
+      android:layout_marginTop="15dp"
+      android:background="@mipmap/frame_len"
+      android:gravity="bottom|center"
+      android:onClick="irpanelleng"
+      android:padding="10dp"
+      android:text="@string/bL"
+      android:textColor="@color/blanco"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.144"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/bmate" />
+
+  <Button
+      android:id="@+id/bciena"
+      android:layout_width="300dp"
+      android:layout_height="100dp"
+      android:layout_marginTop="15dp"
+      android:background="@mipmap/frame_cna"
+      android:gravity="bottom|center"
+      android:onClick="irpanelciennat"
+      android:padding="10dp"
+      android:text="@string/bCN"
+      android:textColor="@color/blanco"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.144"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/blen" />
+
+  <Button
+      android:id="@+id/bcienso"
+      android:layout_width="300dp"
+      android:layout_height="100dp"
+      android:layout_marginTop="15dp"
+      android:background="@mipmap/frame_cso"
+      android:gravity="bottom|center"
+      android:onClick="irpanelciensoc"
+      android:padding="10dp"
+      android:text="@string/bCS"
+      android:textColor="@color/blanco"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.144"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/bciena" />
+
+  <Button
+      android:id="@+id/beduart"
+      android:layout_width="300dp"
+      android:layout_height="100dp"
+      android:layout_marginTop="15dp"
+      android:background="@mipmap/frame_art"
+      android:gravity="bottom|center"
+      android:onClick="irpanelart"
+      android:padding="10dp"
+      android:text="@string/bEA"
+      android:textColor="@color/blanco"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.144"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/bcienso" />
+
+  <Button
+      android:id="@+id/bedufis"
+      android:layout_width="300dp"
+      android:layout_height="100dp"
+      android:layout_marginTop="15dp"
+      android:background="@mipmap/frame_edf"
+      android:gravity="bottom|center"
+      android:onClick="irpaneledufis"
+      android:padding="10dp"
+      android:text="@string/bEF"
+      android:textColor="@color/blanco"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.144"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/beduart" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

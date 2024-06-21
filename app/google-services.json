@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "458721771060",
+    "project_id": "usergulpdog",
+    "storage_bucket": "usergulpdog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458721771060:android:54816cf2890cc023815461",
+        "android_client_info": {
+          "package_name": "com.example.gulpdog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcaTZjfL_dnLFSAoJtsqiT5KPMroiuGO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
